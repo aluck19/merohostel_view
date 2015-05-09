@@ -10,6 +10,9 @@ div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, tex
 	margin: 0;
 	padding: 0;
 }
+a:link, a:hover, a:visited {
+	color: red;
+}
 #wrapper {
 	min-height: 100%;
 	position: relative;
@@ -18,6 +21,14 @@ div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, tex
 	background: url('../img/kathmandu-city.jpg');
 	background-size: cover;
 	height: 100vh;
+}
+#mainMenu li a {
+	font-size: 18px;
+	color: #fff;
+}
+#mainMenu li a:hover {
+	text-decoration:none;
+	color: red;
 }
 #header {
 	background: red;
@@ -32,10 +43,7 @@ div#mainTitle h1 {
   color: #fff;
   font-size: 50px;
   color: #FFF;
-  font-size: 55px;
-  font-family: fantasy;
-  font-weight: 100;
-}
+  font-size: 55px;  
 }
 div#mainTitle {
     position: absolute;
@@ -105,7 +113,7 @@ div#mainTitle {
 	margin-left: 25px;
 }
 #content {
-	/*padding: 10px;*/
+	padding: 20px;
 	padding-bottom: 80px !important; /* Height of the footer element */
 }
 #footer {
@@ -115,4 +123,31 @@ div#mainTitle {
 	bottom: 0;
 	left: 0;
 	background: #ee5;
+}
+div#fixedSearch {
+  background: #000000;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.hostelThumb {
+   display: inline-block;
+  width: 265px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+div#pager {
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0px;
+    margin: 20px 0px;
+    border-radius: 4px;
+}
+a#hpName {
+  background: rgb(99, 210, 205);
+  color: #fff;
+  font-size: 18px;
+  font-family: cursive;
 }
