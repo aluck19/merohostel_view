@@ -19,18 +19,16 @@ a:link, a:hover, a:visited {
 	position: relative;
 }
 
-
 #wrapper {
 	min-height: 100%;
 	position: relative;
-	  top: 55px;
+	top: 55px;
 }
 #header {
-  position: fixed;
-  z-index: 9999;
-  width: 100%;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
 }
-
 
 #content {
 	background-color: #7b756b;
@@ -47,8 +45,8 @@ h2.subTitle {
 	text-align: center;
 	font-size: 30px;
 	color: #31302b;
-	  letter-spacing: .04em;
-  text-transform: uppercase;
+	letter-spacing: .04em;
+	text-transform: uppercase;
 	margin: 0;
 	padding: 10px;
 }
@@ -164,8 +162,8 @@ div#mainTitle {
 	padding: 30px 0px;
 }
 .subSection {
-  padding: 10px 0px 20px 0px;
-  color: #676056;
+	padding: 10px 0px 20px 0px;
+	color: #676056;
 }
 .subSection h2 {
 	margin-bottom: 5px;
@@ -200,8 +198,8 @@ div#fixedSearch {
 
 .hostelThumb {
 	display: inline-block;
-	width: 235px;
-	margin-left: 10px;
+	width: 245px;
+	margin-left: 30px;
 	margin-bottom: 20px;
 }
 .extra.content a {
