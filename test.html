@@ -30,12 +30,13 @@
 
 	<body>
 
-	<div id="header">
+
+<div id="header">
 				<div id="fixedSearch">
 					<div class="container">
 						<div class="row">
 
-							<div style="float: left;">
+							<div style="float: left;padding: 14px 14px;margin-top: -15px;background-color: #C14800;margin-bottom: -15px;">
 								<a href="first_page.html"> <img src="img/mero-hostel-logo.png"/> </a>
 							</div>
 							<!-- logo -->
@@ -63,14 +64,17 @@
 								<div class="ui local search">
 									<div class="ui left icon input">
 										<i class="world icon"></i>
-										<input  style="border-radius: 4px;" type="text" placeholder="Local search..." class="prompt">
+										<input  style="border-radius: 4px;" type="text" placeholder="Enter Location" class="prompt">
 									</div>
 								</div>
 							</div>
 							<!-- location -->
 
-							<div class="ui submit button teal">
-								Search
+							<div class="ui submit button" style="
+							background-color: white;
+							color: rgb(239, 103, 47);
+							" >
+								<i class="search icon"></i> Search
 							</div>
 
 						</div><!--row -->
@@ -79,270 +83,118 @@
 				</div><!-- fixedSearch -->
 			</div><!-- header-->
 
-		<div id="wrapper">	
 
+		<div id="wrapper">
+
+			
 			<div id="content">
-				<div class="container">
+				<div style="background: #fff;" class="container">
 
-					<div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+					<div class="row" style="padding: 20px;">
 
 						<div class="col-md-8">
-							<div class="hostelThumb">
-								<div class="ui card">
-									<div class="image">
-										<div class="ui dimmer">
-											<div class="content">
-												<div class="center">
-													<div class="ui inverted button">
-														Add Friend
-													</div>
-												</div>
-											</div>
-										</div>
-										<img src="img/thumbail.png">
-									</div>
+							<h2>A&O Amsterdam Zuidoost</h2>
+							<div class="address">
+								<a href="#" title="Amsterdam Hostels">Naxal, Kathmandu</a>
+							</div>
+							<div class="row" style="
+							background-color: #f6f6f6;
+							padding: 10px 0px;
 
-									<div class="content">
-										<div class="header">
-											Hostel ko naam lekhne
-										</div>
-
-										<div class="description">
-											One or two sentence description that may go to several lines
-										</div>
+							">
+								<div class="col-md-3">
+									<div class="hostelImage">
+										<img src="img/hostel.jpg"/>
 									</div>
-									<div class="extra content">
-										<a class="right floated created"><i class="circular inverted teal  user icon"></i>Gender</a>
-										<a class="friends"><i class="circular inverted teal  point icon"></i>Location</a>
-									</div>
+								</div>
+								<div class="col-md-9" style="border-left: 2px dotted #ccc;">
 
-									<a  style="text-decoration: none;"  href="third_page.html">
-									<div style="display: block;	margin: 0;" class="ui button">
-										View Details
-									</div> </a>
+									<h4>General Info</h4>
+									<p>
+										<i class="circular inverted teal  point icon"></i>Location
+									</p>
+									<p>
+										<i class="circular inverted teal  phone square icon"></i> Contact
+									</p>
+									<p>
+										<i class="circular inverted teal  mail  icon"></i>Email
+									</p>
 
 								</div>
-							</div><!-- hostelThumb -->
 
-							<div class="hostelThumb">
-								<div class="ui card">
-									<div class="image">
-										<div class="ui dimmer">
-											<div class="content">
-												<div class="center">
-													<div class="ui inverted button">
-														Add Friend
-													</div>
-												</div>
-											</div>
-										</div>
-										<img src="img/thumbail.png">
-									</div>
+							</div>
+							<!-- internal row 1 -->
 
-									<div class="content">
-										<div class="header">
-											Hostel ko naam lekhne
-										</div>
+							<div class="row ">
+								<h3 id="facilities"><a name="facilities" id="facilities"></a>Facilities</h3>
 
-										<div class="description">
-											One or two sentence description that may go to several lines
-										</div>
-									</div>
-									<div class="extra content">
-										<a class="right floated created"><i class="circular inverted teal  user icon"></i>Gender</a>
-										<a class="friends"><i class="circular inverted teal  point icon"></i>Location</a>
-									</div>
-
-									<a  style="text-decoration: none;"  href="third_page.html">
-									<div style="display: block;	margin: 0;" class="ui button">
-										View Details
-									</div> </a>
+								<div class="facilities">
+									<ul class="facilitylist">
+										<li>
+											24 Hour Reception
+										</li>
+										<li>
+											ATM
+										</li>
+										<li>
+											Breakfast Not Included
+										</li>
+										<li>
+											Elevator
+										</li>
+										<li>
+											Free WiFi
+										</li>
+										<li>
+											Games Room
+										</li>
+										<li>
+											Luggage Storage
+										</li>
+										<li>
+											Parking
+										</li>
+										<li>
+											Reading Light
+										</li>
+										<li>
+											Towels for hire
+										</li>
+										<li>
+											Vending Machines
+										</li>
+										<li>
+											Washing machine
+										</li>
+										<br style="clear: both;">
+									</ul>
 								</div>
-							</div><!-- hostelThumb -->
+							</div><!-- row 2 -->
 
-							<div class="hostelThumb">
-								<div class="ui card">
-									<div class="image">
-										<div class="ui dimmer">
-											<div class="content">
-												<div class="center">
-													<div class="ui inverted button">
-														Add Friend
-													</div>
-												</div>
-											</div>
-										</div>
-										<img src="img/thumbail.png">
+							<div class="row ">
+								<h3 id="review"><a name="review" id="review"></a>Submit Review</h3>
+
+								<div class="ui form">
+
+									<div class="field">
+										<label>Add New Review</label>
+										<textarea></textarea>
 									</div>
 
-									<div class="content">
-										<div class="header">
-											Hostel ko naam lekhne
-										</div>
-
-										<div class="description">
-											One or two sentence description that may go to several lines
-										</div>
+									<div class="ui orange submit button">
+										Submit Review
 									</div>
-									<div class="extra content">
-										<a class="right floated created"><i class="circular inverted teal  user icon"></i>Gender</a>
-										<a class="friends"><i class="circular inverted teal  point icon"></i>Location</a>
-									</div>
-
-									<a  style="text-decoration: none;"  href="third_page.html">
-									<div style="display: block;	margin: 0;" class="ui button">
-										View Details
-									</div> </a>
 								</div>
-							</div><!-- hostelThumb -->
-
-							<div class="hostelThumb">
-								<div class="ui card">
-									<div class="image">
-										<div class="ui dimmer">
-											<div class="content">
-												<div class="center">
-													<div class="ui inverted button">
-														Add Friend
-													</div>
-												</div>
-											</div>
-										</div>
-										<img src="img/thumbail.png">
-									</div>
-
-									<div class="content">
-										<div class="header">
-											Hostel ko naam lekhne
-										</div>
-
-										<div class="description">
-											One or two sentence description that may go to several lines
-										</div>
-									</div>
-									<div class="extra content">
-										<a class="right floated created"><i class="circular inverted teal  user icon"></i>Gender</a>
-										<a class="friends"><i class="circular inverted teal  point icon"></i>Location</a>
-									</div>
-
-									<a  style="text-decoration: none;"  href="third_page.html">
-									<div style="display: block;	margin: 0;" class="ui button">
-										View Details
-									</div> </a>
-								</div>
-							</div><!-- hostelThumb -->
-
-							<div class="hostelThumb">
-								<div class="ui card">
-									<div class="image">
-										<div class="ui dimmer">
-											<div class="content">
-												<div class="center">
-													<div class="ui inverted button">
-														Add Friend
-													</div>
-												</div>
-											</div>
-										</div>
-										<img src="img/thumbail.png">
-									</div>
-
-									<div class="content">
-										<div class="header">
-											Hostel ko naam lekhne
-										</div>
-
-										<div class="description">
-											One or two sentence description that may go to several lines
-										</div>
-									</div>
-									<div class="extra content">
-										<a class="right floated created"><i class="circular inverted teal  user icon"></i>Gender</a>
-										<a class="friends"><i class="circular inverted teal  point icon"></i>Location</a>
-									</div>
-
-									<a  style="text-decoration: none;"  href="third_page.html">
-									<div style="display: block;	margin: 0;" class="ui button">
-										View Details
-									</div> </a>
-								</div>
-							</div><!-- hostelThumb -->
-
-							<div class="hostelThumb">
-								<div class="ui card">
-									<div class="image">
-										<div class="ui dimmer">
-											<div class="content">
-												<div class="center">
-													<div class="ui inverted button">
-														Add Friend
-													</div>
-												</div>
-											</div>
-										</div>
-										<img src="img/thumbail.png">
-									</div>
-
-									<div class="content">
-										<div class="header">
-											Hostel ko naam lekhne
-										</div>
-
-										<div class="description">
-											One or two sentence description that may go to several lines
-										</div>
-									</div>
-									<div class="extra content">
-										<a class="right floated created"><i class="circular inverted teal  user icon"></i>Gender</a>
-										<a class="friends"><i class="circular inverted teal  point icon"></i>Location</a>
-									</div>
-
-									<a  style="text-decoration: none;"  href="third_page.html">
-									<div style="display: block;	margin: 0;" class="ui button">
-										View Details
-									</div> </a>
-								</div>
-							</div><!-- hostelThumb -->
-
-							<div id="pager">
-								<ul class="pagination">
-									<li>
-										<a href="#">«</a>
-									</li>
-									<li>
-										<a href="#">1</a>
-									</li>
-									<li>
-										<a href="#">2</a>
-									</li>
-									<li>
-										<a href="#">3</a>
-									</li>
-									<li>
-										<a href="#">4</a>
-									</li>
-									<li>
-										<a href="#">5</a>
-									</li>
-									<li>
-										<a href="#">»</a>
-									</li>
-								</ul>
-							</div><!-- pager -->
+							</div><!-- internal row 2 -->
 
 						</div><!-- main column -->
 
 						<div class="col-md-4">
-							<h1 style="
-							color: rgb(255, 120, 80);
-							font-family: cursive;
-							font-size: 24px;
-							">ADS</h1>
-						</div>
-						<!-- sidebar -->
-					</div><!--row -->
-				</div><!--container -->
+							<h2>Advertisement</h2>
+						</div><!-- sidebar -->
 
+					</div><!-- content -->
+				</div><!-- container -->
 			</div>
 			<!-- content -->
 

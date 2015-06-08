@@ -29,62 +29,66 @@
 	</head>
 
 	<body>
+		<div id="header">
+			<div id="fixedSearch">
+				<div class="container">
+					<div class="row">
+
+						<div style="float: left;padding: 14px 14px;margin-top: -15px;background-color: #C14800;margin-bottom: -15px;">
+							<a href="first_page.html"> <img src="img/mero-hostel-logo.png"/> </a>
+						</div>
+						<!-- logo -->
+
+						<div class="ui selection dropdown">
+							<input type="hidden" name="gender">
+							<i class="dropdown icon"></i>
+							<div class="default text">
+								Gender
+							</div>
+							<div class="menu">
+								<div class="item" data-value="male" data-text="Male">
+									<i class="male icon"></i>
+									Male
+								</div>
+								<div class="item" data-value="female" data-text="Female">
+									<i class="female icon"></i>
+									Female
+								</div>
+							</div>
+						</div>
+						<!-- gender -->
+
+						<div class="ui corner labeled input">
+							<div class="ui local search">
+								<div class="ui left icon input">
+									<i class="world icon"></i>
+									<input  style="border-radius: 4px;" type="text" placeholder="Enter Location" class="prompt">
+								</div>
+							</div>
+						</div>
+						<!-- location -->
+
+						<div class="ui submit button" style="
+						background-color: white;
+						color: rgb(239, 103, 47);
+						" >
+							<i class="search icon"></i> Search
+						</div>
+
+					</div><!--row -->
+				</div><!--container -->
+
+			</div><!-- fixedSearch -->
+		</div><!-- header-->
 
 		<div id="wrapper">
 
-			<div id="header">
-				<div id="fixedSearch">
-					<div class="container">
-						<div class="row">
-
-							<div style="float: left;padding: 14px 14px;margin-top: -15px;background-color: #C14800;margin-bottom: -15px;">
-								<a href="first_page.html"> <img src="img/mero-hostel-logo.png"/> </a>
-							</div>
-							<!-- logo -->
-
-							<div class="ui selection dropdown">
-								<input type="hidden" name="gender">
-								<i class="dropdown icon"></i>
-								<div class="default text">
-									Gender
-								</div>
-								<div class="menu">
-									<div class="item" data-value="male" data-text="Male">
-										<i class="male icon"></i>
-										Male
-									</div>
-									<div class="item" data-value="female" data-text="Female">
-										<i class="female icon"></i>
-										Female
-									</div>
-								</div>
-							</div>
-							<!-- gender -->
-
-							<div class="ui corner labeled input">
-								<div class="ui local search">
-									<div class="ui left icon input">
-										<i class="world icon"></i>
-										<input  style="border-radius: 4px;" type="text" placeholder="Enter Location" class="prompt">
-									</div>
-								</div>
-							</div>
-							<!-- location -->
-
-							<div class="ui submit button" style="
-							background-color: white;
-							color: rgb(239, 103, 47);
-							" >
-								<i class="search icon"></i> Search
-							</div>
-
-						</div><!--row -->
-					</div><!--container -->
-
-				</div><!-- fixedSearch -->
-			</div><!-- header-->
-
 			<div id="content">
+
+				<div id="feedback">
+					<a href"#"><img src="img/feedback.png" /></a>
+				</div>
+
 				<div style="background: #fff;" class="container">
 
 					<div class="row" style="padding: 20px;">
