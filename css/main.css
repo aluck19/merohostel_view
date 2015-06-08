@@ -22,7 +22,7 @@ a:link, a:hover, a:visited {
 #header {
 }
 #content {
-	background-color: #edefed;
+	background-color: #7b756b;
 	padding-bottom: 50px; /* Height of the footer element */
 }
 #footer {
@@ -35,18 +35,20 @@ a:link, a:hover, a:visited {
 h2.subTitle {
 	text-align: center;
 	font-size: 30px;
-	color: #666;
+	color: #31302b;
+	  letter-spacing: .04em;
+  text-transform: uppercase;
 	margin: 0;
 	padding: 10px;
 }
 }
 
 h2. {
-	color: #333 !important;
-	font-size: 26px;
-	line-height: 30px;
-	font-weight: normal;
-	margin: 0;
+color: #333 !important;
+font-size: 26px;
+line-height: 30px;
+font-weight: normal;
+margin: 0;
 }
 .address {
 	font-size: 11px;
@@ -80,6 +82,13 @@ ul.facilitylist {
 	padding-left: 20px;
 }
 
+#feedback a {
+	display: block;
+	position: fixed;
+	top: 200px;
+	left: -1px;
+}
+
 #mainCover {
 	background: url('../img/cover_desktop_2.jpg');
 	background-size: cover;
@@ -89,6 +98,7 @@ ul.facilitylist {
 #mainMenu li a {
 	font-size: 16px;
 	color: #fff;
+	line-height: 25px;
 }
 #mainMenu li a:hover {
 	text-decoration: none;
@@ -135,7 +145,7 @@ div#mainTitle {
 	padding-bottom: 30px;
 }
 #mainSection {
-	background: #fff;
+	background: #f7f3eb;
 	padding-top: 10px;
 }
 #featuredHostel {
@@ -143,8 +153,8 @@ div#mainTitle {
 	padding: 30px 0px;
 }
 .subSection {
-	padding: 10px;
-	border-right: 1px dotted #ccc;
+  padding: 10px 0px 20px 0px;
+  color: #676056;
 }
 .subSection h2 {
 	margin-bottom: 5px;
@@ -157,7 +167,7 @@ div#mainTitle {
 	margin-top: 5px;
 }
 #mainFooter {
-	background: #565a5c;
+	background: #31302b;
 	color: #fff;
 }
 #mainFooter ul li {
@@ -167,7 +177,7 @@ div#mainTitle {
 	margin-left: 25px;
 }
 div#fixedSearch {
-	background: url('../img/cover_desktop_2.jpg');
+	background: #ef672f;
 	padding: 15px;
 	text-align: center;
 	width: 100%;
