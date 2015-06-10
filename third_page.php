@@ -29,7 +29,12 @@
 	</head>
 
 	<body>
+    <?php
+  		$id=$_GET["id"];
+		$conn=new mysqli("localhost","root","iam@@$#!M","merohost_el");
 
+   		$row=$conn->query("SELECT * from Info where id='$id'");
+    list($id,$name,$location,$gender,$ownerId,$email,$website,$contact,$additionalInfo,$mainPhotoUrl,$capacity)=$row->fetch_row();
 		<div id="header">
 			<div id="fixedSearch">
 				<div class="container">
